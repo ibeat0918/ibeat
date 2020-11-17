@@ -1,0 +1,5 @@
+library(devtools)
+install_github("jasdumas/shinyGEO")
+library(shinyGEO)
+shinyGEO::updateGEOdata()
+shinyGEO::runshinyGEO()
